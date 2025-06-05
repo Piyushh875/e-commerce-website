@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXE | Premium Fashion Boutique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="top-header">
+                <a href="#" class="logo">
+                    <i class="fas fa-crown"></i>
+                    LUXE<span>BOUTIQUE</span>
+                </a>
+                
+                <nav>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Designer</a></li>
+                        <li><a href="#">Clothing</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <div class="action-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    
+                    <div class="user-dropdown">
+                        <div class="action-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="#" id="login-btn"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+                            <a href="#" id="register-btn"><i class="fas fa-user-plus"></i> Register</a>
+                            <a href="#"><i class="fas fa-heart"></i> Wishlist</a>
+                            <a href="#"><i class="fas fa-history"></i> Order History</a>
+                            <a href="#"><i class="fas fa-cog"></i> Account Settings</a>
+                        </div>
+                    </div>
+                    
+                    <div class="action-icon" id="cart-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Elevate Your Style This Season</h1>
+            <p>Discover our exclusive collection of designer pieces curated for the modern connoisseur. Experience luxury redefined.</p>
+            <div class="hero-btns">
+                <a href="#" class="btn">Shop Collection</a>
+                <a href="#" class="btn btn-outline">View Lookbook</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Categories -->
+    <section class="categories">
+        <div class="section-title">
+            <h2>Shop By Category</h2>
+        </div>
+        
+        <div class="container">
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Women's Apparel</h3>
+                        <p>Exquisite dresses, suits & more</p>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Men's Collection</h3>
+                        <p>Tailored suits & casual wear</p>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Footwear</h3>
+                        <p>Designer shoes for every occasion</p>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-img" style="background-image: url('https://images.unsplash.com/photo-1591561954557-26941169b49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="category-content">
+                        <h3>Accessories</h3>
+                        <p>Jewelry, bags & statement pieces</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="section-title">
+            <h2>Curated Collection</h2>
+        </div>
+        
+        <div class="container">
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1585155770447-2f66e2a397b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Designer Dress">
+                        <div class="product-actions">
+                            <div class="action-btn"><i class="fas fa-heart"></i></div>
+                            <div class="action-btn"><i class="fas fa-search"></i></div>
+                            <div class="action-btn"><i class="fas fa-shopping-bag"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Dresses</div>
+                        <h3 class="product-name">Silk Evening Gown</h3>
+                        <div class="product-price">
+                            <span class="current-price">$349.99</span>
+                            <span class="original-price">$499.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-badge">Sale</div>
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Leather Jacket">
+                        <div class="product-actions">
+                            <div class="action-btn"><i class="fas fa-heart"></i></div>
+                            <div class="action-btn"><i class="fas fa-search"></i></div>
+                            <div class="action-btn"><i class="fas fa-shopping-bag"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Jackets</div>
+                        <h3 class="product-name">Premium Leather Jacket</h3>
+                        <div class="product-price">
+                            <span class="current-price">$289.99</span>
+                            <span class="original-price">$399.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Designer Handbag">
+                        <div class="product-actions">
+                            <div class="action-btn"><i class="fas fa-heart"></i></div>
+                            <div class="action-btn"><i class="fas fa-search"></i></div>
+                            <div class="action-btn"><i class="fas fa-shopping-bag"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Bags</div>
+                        <h3 class="product-name">Designer Leather Tote</h3>
+                        <div class="product-price">
+                            <span class="current-price">$459.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-badge">Limited</div>
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Watch">
+                        <div class="product-actions">
+                            <div class="action-btn"><i class="fas fa-heart"></i></div>
+                            <div class="action-btn"><i class="fas fa-search"></i></div>
+                            <div class="action-btn"><i class="fas fa-shopping-bag"></i></div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Accessories</div>
+                        <h3 class="product-name">Swiss Automatic Watch</h3>
+                        <div class="product-price">
+                            <span class="current-price">$1,249.99</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Join Our Exclusive Circle</h2>
+                <p>Subscribe to receive first access to new collections, special offers, and style inspiration.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>LUXE BOUTIQUE</h3>
+                    <p>Elevating your style with carefully curated luxury fashion since 2010. Experience the difference of exceptional craftsmanship and timeless design.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Bestsellers</a></li>
+                        <li><a href="#">Designer Collections</a></li>
+                        <li><a href="#">Sale</a></li>
+                        <li><a href="#">Lookbook</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Information</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Information</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 451 Fashion Avenue, New York, NY 10001</p>
+                        <p><i class="fas fa-phone"></i> +1 (888) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> support@luxeboutique.com</p>
+                        <p><i class="fas fa-clock"></i> Mon-Fri: 9AM - 8PM, Sat-Sun: 10AM - 6PM</p>
+                    </div>
+                    
+                    <h3 style="margin-top: 25px;">Secure Payments</h3>
+                    <div class="payment-methods">
+                        <div class="payment-method"><i class="fab fa-cc-visa"></i></div>
+                        <div class="payment-method"><i class="fab fa-cc-mastercard"></i></div>
+                        <div class="payment-method"><i class="fab fa-cc-amex"></i></div>
+                        <div class="payment-method"><i class="fab fa-cc-paypal"></i></div>
+                        <div class="payment-method"><i class="fab fa-apple-pay"></i></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 LUXE BOUTIQUE. All rights reserved. | Premium Luxury Fashion E-Commerce</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Sign In to Your Account</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="login-email">Email Address</label>
+                        <input type="email" id="login-email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; margin-top: 20px;">Sign In</button>
+                </form>
+                <div class="form-footer">
+                    <p>Don't have an account? <a href="#" id="show-register-link">Register here</a></p>
+                    <p><a href="#">Forgot your password?</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Register Modal -->
+    <div class="modal" id="register-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Create Your Account</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="register-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-email">Email Address</label>
+                        <input type="email" id="register-email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-password">Password</label>
+                        <input type="password" id="register-password" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; margin-top: 20px;">Create Account</button>
+                </form>
+                <div class="form-footer">
+                    <p>Already have an account? <a href="#" id="show-login-link">Sign in here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Cart Modal -->
+    <div class="modal" id="cart-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Your Shopping Bag (3)</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="cart-items">
+                    <!-- Cart Item 1 -->
+                    <div class="cart-item">
+                        <div class="cart-item-img" style="background-image: url('https://images.unsplash.com/photo-1585155770447-2f66e2a397b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80');"></div>
+                        <div class="cart-item-details">
+                            <h3>Silk Evening Gown</h3>
+                            <p>Size: M | Color: Emerald</p>
+                            <div class="product-price">
+                                <span class="current-price">$349.99</span>
+                                <span class="original-price">$499.99</span>
+                            </div>
+                            <div class="quantity-controls">
+                                <button class="quantity-btn">-</button>
+                                <span class="quantity">1</span>
+                                <button class="quantity-btn">+</button>
+                                <button class="remove-btn">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Cart Item 2 -->
+                    <div class="cart-item">
+                        <div class="cart-item-img" style="background-image: url('https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80');"></div>
+                        <div class="cart-item-details">
+                            <h3>Designer Leather Tote</h3>
+                            <p>Color: Cognac</p>
+                            <div class="product-price">
+                                <span class="current-price">$459.99</span>
+                            </div>
+                            <div class="quantity-controls">
+                                <button class="quantity-btn">-</button>
+                                <span class="quantity">1</span>
+                                <button class="quantity-btn">+</button>
+                                <button class="remove-btn">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Cart Item 3 -->
+                    <div class="cart-item">
+                        <div class="cart-item-img" style="background-image: url('https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80');"></div>
+                        <div class="cart-item-details">
+                            <h3>Swiss Automatic Watch</h3>
+                            <p>Strap: Leather</p>
+                            <div class="product-price">
+                                <span class="current-price">$1,249.99</span>
+                            </div>
+                            <div class="quantity-controls">
+                                <button class="quantity-btn">-</button>
+                                <span class="quantity">1</span>
+                                <button class="quantity-btn">+</button>
+                                <button class="remove-btn">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cart-summary">
+                    <div class="summary-row">
+                        <span>Subtotal:</span>
+                        <span>$2,059.97</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Shipping:</span>
+                        <span>FREE</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Tax:</span>
+                        <span>$164.80</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total:</span>
+                        <span>$2,224.77</span>
+                    </div>
+                    
+                    <button class="btn" style="width: 100%; margin-top: 25px;">Proceed to Checkout</button>
+                    <button class="btn" style="width: 100%; margin-top: 15px; background: transparent; border: 2px solid var(--charcoal); color: var(--charcoal);">Continue Shopping</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
